@@ -1,0 +1,46 @@
+{
+  "name": "create-best-next-app",
+  "version": "1.0.0",
+  "description": "Boilerplate for my ultimate next.js proyect configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "parcel index.html",
+    "build": "parcel build index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/armanyfelix/create-best-next-app.git"
+  },
+  "bin": {
+    "create-best-next-app": "./generate-app.js"
+  },
+  "keywords": [
+    "npx",
+    "create",
+    "nextjs",
+    "next",
+    "app",
+    "create-next-app",
+    "create-best-next-app",
+    "boilerplate",
+    "stack",
+    "ultimate",
+    "best",
+    "init",
+    "configuration",
+    "new"
+  ],
+  "author": "Armany Felix",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/armanyfelix/create-best-next-app/issues"
+  },
+  "homepage": "https://github.com/armanyfelix/create-best-next-app#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.8.1"
+  },
+  "dependencies": {
+    "rimraf": "^5.0.1"
+  }
+}
