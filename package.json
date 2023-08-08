@@ -13,7 +13,7 @@
     "url": "git+https://github.com/armanyfelix/create-best-next-app.git"
   },
   "bin": {
-    "create-best-next-app": "./generate-app.js"
+    "create-best-next-app": "./bin/generate-app.js"
   },
   "keywords": [
     "npx",

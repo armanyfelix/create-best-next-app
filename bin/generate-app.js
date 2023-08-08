@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { execSync } = require('child_process');
 const path = require('path');
 const fs = require('fs');
@@ -12,7 +14,7 @@ if (process.argv.length < 3) {
 const projectName = process.argv[2];
 const currentPath = process.cwd();
 const projectPath = path.join(currentPath, projectName);
-const git_repo = GIT_URL;
+const git_repo = 'https://github.com/armanyfelix/create-best-next-app';
 
 try {
   fs.mkdirSync(projectPath);
